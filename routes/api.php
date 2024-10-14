@@ -37,5 +37,3 @@ Route::put('/copy/{id}',[organisators::class, 'update']);
 Route::delete('/user/{id}',[events::class, 'destroy']);
 Route::delete('/copy/{id}',[invitations::class, 'destroy']);
 Route::delete('/copy/{id}',[organisators::class, 'destroy']);
-
-?>
